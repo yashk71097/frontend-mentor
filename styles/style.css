@@ -1,0 +1,105 @@
+/* ------------------------ */
+/* Reset the default styles */
+/* ------------------------ */
+
+*,
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------------- */
+/* Give default values to elements */
+/* ------------------------------- */
+
+/* Body Setup */
+
+body {
+    font-family: "Outfit", sans-serif;
+    line-height: 1.5;
+    background-size: cover;
+    background-position: bottom;
+    overflow-x: hidden;
+}
+
+/* Images Setup */
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* ----------- */
+/* Root Styles */
+/* ----------- */
+
+:root {
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+/* --------------- */
+/* Utility Classes */
+/* --------------- */
+
+/* Flexbox */
+
+.flex {
+    display: flex;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* -------------- */
+/* Custom Classes */
+/* -------------- */
+
+.container {
+    min-height: 100vh;
+    background-color: var(--light-gray);
+    justify-content: center;
+    align-items: center;
+}
+
+.code-container {
+    width: clamp(320px, 80vw, 500px);
+    padding: 15px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.code-image img {
+    border-radius: 20px;
+}
+
+.description {
+    padding: 0 8px;
+}
+
+.title {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    font-weight: 700;
+    margin: 20px 0;
+    color: var(--dark-blue);
+}
+
+.sub-title {
+    font-size: clamp(0.8rem, 3vw, 1rem);
+    color: var(--grayish-blue);
+    padding-bottom: 30px;
+}
+
+/* Style Attribution */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
