@@ -12,8 +12,8 @@ This is a static web page of qr-code component.
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/qr-code-component-yvpswrahl6)
+-   Live Site URL: [Add live site URL here](https://yashk71097.github.io/frontend-mentor/)
 
 ### Built with
 
